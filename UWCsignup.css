@@ -8,7 +8,9 @@ body {
     font-family: "Roboto", sans-serif;
   }
   :root {
-    --bg--color: #B7C4CF;
+    /* --bg--color: #B7C4CF; */
+    --bg--color: #D6CDA4;
+    /* --primary--color: #EEF2E6; */
     --primary--color: #EEF2E6;
     --secondary--color: #a4ebf3;
     --gray--color: #aaaaaa;
