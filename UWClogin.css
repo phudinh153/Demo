@@ -7,12 +7,14 @@ body {
     background-color: var(--bg--color);
     font-family: "Roboto", sans-serif;
   }
-  :root {
-    --bg--color: #B7C4CF;
+   :root {
+   /* --bg--color: #B7C4CF; */
+    --bg--color: #D6CDA4;
+    /* --primary--color: #EEF2E6; */
     --primary--color: #EEF2E6;
     --secondary--color: #a4ebf3;
     --gray--color: #aaaaaa;
-  }
+  } 
   .wrapper {
     margin-top: 120px;
     width: 300px;
