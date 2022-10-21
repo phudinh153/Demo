@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./grid.css">
-    <link rel="stylesheet" href="demodec.css"> 
-    <title>UWC 2.0</title>
+    <link rel="stylesheet" href="AssignTask.css"> 
+    <title>Assign Task</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,20 +37,19 @@
     </header>
 
     <section>
-        <nav class="AssignTask">
-            <a href="">Assign Task</a>
-        </nav>
-
-        <nav class="ViewWorker">
-            <a href="ViewWorkersList.html">View Workers List</a>
-        </nav>
-
-        <nav class="ViewMCP">
-            <a href="ViewMCPsList.html">View MCPs Map</a>
-        </nav>
-        <nav class="ViewVehicle">
-            <a href="ViewVehiclesList.html">View All Vehicles</a>
-        </nav>
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+              <input type="submit" value="Subscribe!">
+            </div>          
+       </form>
     </section>
 
 </body>

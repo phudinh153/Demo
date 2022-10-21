@@ -122,16 +122,17 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 80px;
+    margin-top: 150px;
+
 }
 
 section nav{  
-    border-radius: 10%;
+    border-radius: 10px 50%;
     background-color: #3D8361; 
     border: 5px solid #EEF2E6;
     margin: 1%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,60 +140,15 @@ section nav{
 
 section nav a{
     color: #EEF2E6;
-    font-size: 1em;
+    font-size: 2em;
 }
 
-.box-search{
-    display: flex;
-    justify-content: center;
+form{
+    background-color: #EEF2E6;
+    width: 50%;
+    height: 800px;
     
 }
-
-#search{
-    margin-top: 10%;
-    /* background-color: #fff; */
-    /* width: 25%; */
-    border-radius: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding-left: 5px;
-    width: 50%;
-}
-
-#search input{
-    padding-left: 10px;
-    height: 35px;
-    border: 5px solid #D6CDA4;
-    outline: none;
-    border-radius: 30px;
-    width: 100%;
-}
-
-#search button{
-    height: 35px;
-    background-color: #fff;
-    border: 0px;
-    padding: 10px;
-    outline: none;
-    /* width: 90px; */
-    clip-path: circle(50%);
-}
-
-
-
-table,
-td {
-    border: 1px solid #333;
-}
-
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
-}
-
-
 
 #profile {
     
